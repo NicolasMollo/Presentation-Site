@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Commenti a: Pagina di esempio	</title>
-	<atom:link href="/https://github.com/NicolasMollo/PresentationSite/pagina-di-esempio/feed/" rel="self" type="application/rss+xml" />
-	<link>/https://github.com/NicolasMollo/PresentationSite</link>
+	<atom:link href="https://nicolasmollo.github.io/TestSite/pagina-di-esempio/feed/" rel="self" type="application/rss+xml" />
+	<link>https://nicolasmollo.github.io/TestSite</link>
 	<description>Lorem ipsum</description>
 	<lastBuildDate>Fri, 28 Jun 2024 16:12:56 +0000</lastBuildDate>
 	<sy:updatePeriod>

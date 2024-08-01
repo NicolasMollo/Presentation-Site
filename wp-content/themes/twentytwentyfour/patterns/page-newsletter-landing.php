@@ -6,6 +6,6 @@
 	<div class="wp-block-group">
 		<!-- wp:image {"align":"center","width":"45px","height":"49px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
 		<figure class="wp-block-image aligncenter size-full is-resized">
-			<img src="/https://github.com/NicolasMollo/PresentationSite/wp-content/themes/twentytwentyfour/patterns/<br />_<b>Fatal error</b>:  Uncaught Error: Call to undefined function esc_url() in C:\xampp\htdocs\Projects\curriculum_nicolasmollo\wp-content\themes\twentytwentyfour\patterns\page-newsletter-landing.php:19_Stack trace:_#0 {main}_  thrown in <b>C:\xampp\htdocs\Projects\curriculum_nicolasmollo\wp-content\themes\twentytwentyfour\patterns\page-newsletter-landing.php</b> on line <b>19</b><br />"></figure>
+			<img src="https://nicolasmollo.github.io/TestSite/wp-content/themes/twentytwentyfour/patterns/<br />_<b>Fatal error</b>:  Uncaught Error: Call to undefined function esc_url() in C:\xampp\htdocs\Projects\curriculum_nicolasmollo\wp-content\themes\twentytwentyfour\patterns\page-newsletter-landing.php:19_Stack trace:_#0 {main}_  thrown in <b>C:\xampp\htdocs\Projects\curriculum_nicolasmollo\wp-content\themes\twentytwentyfour\patterns\page-newsletter-landing.php</b> on line <b>19</b><br />"></figure>
 </div>
 </div>
