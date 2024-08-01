@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Senza categoria &#8211; Nicolas Mollo &#8211; Curriculum Vitae</title>
-	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
-	<link>./../../../index.html</link>
+	<atom:link href="/https://github.com/NicolasMollo/PresentationSite/category/senza-categoria/feed/" rel="self" type="application/rss+xml" />
+	<link>/https://github.com/NicolasMollo/PresentationSite</link>
 	<description>Lorem ipsum</description>
 	<lastBuildDate>Fri, 28 Jun 2024 16:12:56 +0000</lastBuildDate>
 	<language>it-IT</language>
@@ -18,23 +18,23 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.6</generator>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
 	<item>
 		<title>Ciao mondo!</title>
-		<link>./../../../2024/06/28/ciao-mondo/index.html</link>
-					<comments>./../../../2024/06/28/ciao-mondo/index.html#respond</comments>
+		<link>/https://github.com/NicolasMollo/PresentationSite/2024/06/28/ciao-mondo/</link>
+					<comments>/https://github.com/NicolasMollo/PresentationSite/2024/06/28/ciao-mondo/#respond</comments>
 		
 		<dc:creator><![CDATA[Nicolas Mollo]]></dc:creator>
 		<pubDate>Fri, 28 Jun 2024 16:12:56 +0000</pubDate>
 				<category><![CDATA[Senza categoria]]></category>
-		<guid isPermaLink="false">./../../../index.html?p=1</guid>
+		<guid isPermaLink="false">/https://github.com/NicolasMollo/PresentationSite/?p=1</guid>
 
 					<description><![CDATA[Ti diamo il benvenuto in WordPress. Questo è il tuo primo articolo. Modificalo o eliminalo e quindi inizia a scrivere!]]></description>
 										<content:encoded><![CDATA[
 <p>Ti diamo il benvenuto in WordPress. Questo è il tuo primo articolo. Modificalo o eliminalo e quindi inizia a scrivere!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>./../../../2024/06/28/ciao-mondo/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>/https://github.com/NicolasMollo/PresentationSite/2024/06/28/ciao-mondo/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

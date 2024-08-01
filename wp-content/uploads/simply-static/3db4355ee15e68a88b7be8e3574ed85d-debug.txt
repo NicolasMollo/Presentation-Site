@@ -1,0 +1,10 @@
+[2024-07-03 17:51:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo
+[2024-07-03 17:51:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo
+[2024-07-03 18:01:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo
+[2024-07-03 18:01:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo
+[2024-07-03 18:30:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo
+[2024-07-03 18:30:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo
+[2024-07-03 18:31:46] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo
+[2024-07-03 18:31:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo
+[2024-07-03 18:31:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo
+[2024-07-03 18:31:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo

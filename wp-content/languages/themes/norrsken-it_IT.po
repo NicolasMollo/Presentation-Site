@@ -1,0 +1,309 @@
+# Translation of Themes - Norrsken in Italian
+# This file is distributed under the same license as the Themes - Norrsken package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-03-02 10:56:54+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: it\n"
+"Project-Id-Version: Themes - Norrsken\n"
+
+#. Theme Name of the theme
+#: style.css functions.php:129 functions.php:139 functions.php:149
+#, gp-priority: high
+msgid "Norrsken"
+msgstr "Norrsken"
+
+#: styles/inverted.json
+msgctxt "Style variation name"
+msgid "Inverted"
+msgstr "Invertito"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr "Footer"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr "Header"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page Blank"
+msgstr "Pagina vuota"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page No Title"
+msgstr "Pagina senza titolo"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Body Margin"
+msgstr "Margine del contenuto"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "9"
+msgstr "9"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "8"
+msgstr "8"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "7"
+msgstr "7"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "6"
+msgstr "6"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "5"
+msgstr "5"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "4"
+msgstr "4"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "3"
+msgstr "3"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2"
+msgstr "2"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "1"
+msgstr "1"
+
+#: styles/inverted.json theme.json
+msgctxt "Gradient name"
+msgid "Base / Two Fade Mid ↘"
+msgstr "Base / Due sfumatura media ↘"
+
+#: styles/inverted.json theme.json
+msgctxt "Gradient name"
+msgid "Aurora ↘"
+msgstr "Aurora ↘"
+
+#: styles/inverted.json theme.json
+msgctxt "Gradient name"
+msgid "Aurora Vertical Fade"
+msgstr "Aurora sfumatura verticale"
+
+#: styles/inverted.json theme.json
+msgctxt "Gradient name"
+msgid "Aurora: Vertical"
+msgstr "Aurora verticale"
+
+#: styles/inverted.json theme.json
+msgctxt "Gradient name"
+msgid "Aurora Horizontal Fade"
+msgstr "Aurora sfumatura orizzontale"
+
+#: styles/inverted.json theme.json
+msgctxt "Gradient name"
+msgid "Aurora Horizontal"
+msgstr "Aurora orizzontale"
+
+#: styles/inverted.json theme.json
+msgctxt "Color name"
+msgid "Contrast / Four"
+msgstr "Contrasto / Quattro"
+
+#: styles/inverted.json theme.json
+msgctxt "Color name"
+msgid "Contrast / Three"
+msgstr "Contrasto / Tre"
+
+#: styles/inverted.json theme.json
+msgctxt "Color name"
+msgid "Contrast / Two"
+msgstr "Contrasto / Due"
+
+#: styles/inverted.json theme.json
+msgctxt "Color name"
+msgid "Contrast"
+msgstr "Contrasto"
+
+#: styles/inverted.json theme.json
+msgctxt "Color name"
+msgid "Base / Two"
+msgstr "Base / Due"
+
+#: styles/inverted.json theme.json
+msgctxt "Color name"
+msgid "Base"
+msgstr "Base"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Monospace"
+msgstr "Monospace di sistema"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Serif"
+msgstr "Serif di sistema"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Sans Serif"
+msgstr "Sans serif di sistema"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Geist Mono"
+msgstr "Geist Mono"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 6"
+msgstr "Titolo 6"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 5"
+msgstr "Titolo 5"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 4"
+msgstr "Titolo 4"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 3"
+msgstr "Titolo 3"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 2"
+msgstr "Titolo 2"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 1"
+msgstr "Titolo 1"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr "Molto grande"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "Grande"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "Medio"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Piccolo"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Tiny"
+msgstr "Piccolissimo"
+
+#: patterns/hidden-search.php
+msgctxt "Pattern title"
+msgid "Search"
+msgstr "Cerca"
+
+#: patterns/hidden-footer.php
+msgctxt "Pattern title"
+msgid "Footer"
+msgstr "Footer"
+
+#: patterns/hidden-comments.php
+msgctxt "Pattern title"
+msgid "Comments"
+msgstr "Commenti"
+
+#: patterns/hidden-404.php
+msgctxt "Pattern title"
+msgid "404"
+msgstr "404"
+
+#: patterns/hidden-search.php:9
+msgctxt "search button text"
+msgid "Search"
+msgstr "Cerca"
+
+#: patterns/hidden-search.php:9
+msgctxt "search form placeholder"
+msgid "Search for..."
+msgstr "Cerca..."
+
+#: patterns/hidden-search.php:9
+msgctxt "search form label"
+msgid "Search"
+msgstr "Cerca"
+
+#. Translators: Theme by Anders Norén
+#: patterns/hidden-footer.php:33
+msgid "Theme by %1$s"
+msgstr "Tema di %1$s"
+
+#. Translators: Theme author link.
+#: patterns/hidden-footer.php:30
+msgid "https://wordpress.org"
+msgstr "https://wordpress.org"
+
+#: patterns/hidden-404.php:18
+msgctxt "404 page text"
+msgid "The page could not be found. Return to the front page or try the search form below."
+msgstr "Impossibile trovare la pagina. Torna alla home page o prova a usare il modulo di ricerca."
+
+#: patterns/hidden-404.php:10
+msgctxt "404 page title"
+msgid "Error 404"
+msgstr "Errore 404"
+
+#: functions.php:159
+msgid "Hide on the homepage"
+msgstr "Nascondi sulla homepage"
+
+#: functions.php:109 functions.php:119
+msgid "Separator to the right of the title"
+msgstr "Separatore a destra del titolo"
+
+#. Author URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://andersnoren.se"
+msgstr "https://andersnoren.se"
+
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "Anders Norén"
+msgstr "Anders Norén"
+
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://andersnoren.se/teman/norrsken-wordpress-theme/"
+msgstr "https://andersnoren.se/teman/norrsken-wordpress-theme/"

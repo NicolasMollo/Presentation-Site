@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Nicolas Mollo &#8211; Curriculum Vitae</title>
-	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
-	<link>./../index.html</link>
+	<atom:link href="/https://github.com/NicolasMollo/PresentationSite/feed/" rel="self" type="application/rss+xml" />
+	<link>/https://github.com/NicolasMollo/PresentationSite</link>
 	<description>Lorem ipsum</description>
 	<lastBuildDate>Wed, 03 Jul 2024 13:40:00 +0000</lastBuildDate>
 	<language>it-IT</language>
@@ -18,20 +18,20 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.6</generator>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
 	<item>
 		<title>Articolo di prova</title>
-		<link>./../2024/07/01/articolo-prova/index.html</link>
-					<comments>./../2024/07/01/articolo-prova/index.html#respond</comments>
+		<link>/https://github.com/NicolasMollo/PresentationSite/2024/07/01/articolo-prova/</link>
+					<comments>/https://github.com/NicolasMollo/PresentationSite/2024/07/01/articolo-prova/#respond</comments>
 		
 		<dc:creator><![CDATA[Nicolas Mollo]]></dc:creator>
 		<pubDate>Mon, 01 Jul 2024 12:30:16 +0000</pubDate>
 				<category><![CDATA[Development]]></category>
-		<guid isPermaLink="false">./../index.html?p=8</guid>
+		<guid isPermaLink="false">/https://github.com/NicolasMollo/PresentationSite/?p=8</guid>
 
 					<description><![CDATA[Questo è un articolo di prova usato esclusivamente per far capire ai lettori che non c'è nulla di interessante]]></description>
 										<content:encoded><![CDATA[
-<p class="has-drop-cap has-accent-3-color has-contrast-background-color has-text-color has-background has-link-color wp-elements-a6271eb260484726a67d8236db930f07"><strong>Questo</strong> è un<a href="./../pagina-di-esempio/index.html" data-type="page" data-id="2"> articolo</a> di prova.</p>
+<p class="has-drop-cap has-accent-3-color has-contrast-background-color has-text-color has-background has-link-color wp-elements-a6271eb260484726a67d8236db930f07"><strong>Questo</strong> è un<a href="/https://github.com/NicolasMollo/PresentationSite/pagina-di-esempio/" data-type="page" data-id="2"> articolo</a> di prova.</p>
 
 
 
@@ -51,30 +51,30 @@
 
 
 
-<div class="wp-block-file"><a id="wp-block-file--media-f2e0485c-6771-41eb-9159-a8d21d23e38c" href="./../wp-content/uploads/2024/07/index.html">index</a><a href="./../wp-content/uploads/2024/07/index.html" class="wp-block-file__button wp-element-button" download aria-describedby="wp-block-file--media-f2e0485c-6771-41eb-9159-a8d21d23e38c">Download</a></div>
+<div class="wp-block-file"><a id="wp-block-file--media-f2e0485c-6771-41eb-9159-a8d21d23e38c" href="/https://github.com/NicolasMollo/PresentationSite/wp-content/uploads/2024/07/index.html">index</a><a href="/https://github.com/NicolasMollo/PresentationSite/wp-content/uploads/2024/07/index.html" class="wp-block-file__button wp-element-button" download aria-describedby="wp-block-file--media-f2e0485c-6771-41eb-9159-a8d21d23e38c">Download</a></div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>./../2024/07/01/articolo-prova/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>/https://github.com/NicolasMollo/PresentationSite/2024/07/01/articolo-prova/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Ciao mondo!</title>
-		<link>./../2024/06/28/ciao-mondo/index.html</link>
-					<comments>./../2024/06/28/ciao-mondo/index.html#respond</comments>
+		<link>/https://github.com/NicolasMollo/PresentationSite/2024/06/28/ciao-mondo/</link>
+					<comments>/https://github.com/NicolasMollo/PresentationSite/2024/06/28/ciao-mondo/#respond</comments>
 		
 		<dc:creator><![CDATA[Nicolas Mollo]]></dc:creator>
 		<pubDate>Fri, 28 Jun 2024 16:12:56 +0000</pubDate>
 				<category><![CDATA[Senza categoria]]></category>
-		<guid isPermaLink="false">./../index.html?p=1</guid>
+		<guid isPermaLink="false">/https://github.com/NicolasMollo/PresentationSite/?p=1</guid>
 
 					<description><![CDATA[Ti diamo il benvenuto in WordPress. Questo è il tuo primo articolo. Modificalo o eliminalo e quindi inizia a scrivere!]]></description>
 										<content:encoded><![CDATA[
 <p>Ti diamo il benvenuto in WordPress. Questo è il tuo primo articolo. Modificalo o eliminalo e quindi inizia a scrivere!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>./../2024/06/28/ciao-mondo/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>/https://github.com/NicolasMollo/PresentationSite/2024/06/28/ciao-mondo/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

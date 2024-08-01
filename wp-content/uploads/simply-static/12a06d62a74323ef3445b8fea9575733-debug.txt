@@ -1,0 +1,672 @@
+[2024-07-08 18:36:52] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-07-08 18:36:52] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
+[2024-07-08 18:36:52] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-07-08 18:36:54] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-07-08 18:36:54] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-07-08 18:36:54] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-07-08 18:36:54] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812\
+[2024-07-08 18:36:54] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/Projects/curriculum_nicolasmollo/
+[2024-07-08 18:36:54] [class-ss-setup-task.php:95] Adding additional URL to queue: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-08 18:36:54] [class-ss-setup-task.php:137] File C:\xampp\htdocs\Projects\curriculum_nicolasmollo\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/xampp/htdocs/Projects/curriculum_nicolasmollo/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-07-08 18:36:54] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-07-08 18:36:54] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-08 18:36:54] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-08 18:36:54] [class-ss-fetch-urls-task.php:69] Total pages: 3; Pages remaining: 3
+[2024-07-08 18:36:54] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/
+[2024-07-08 18:36:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 3
+[2024-07-08 18:36:54] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:36:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31c6423cc-7xAihr.tmp
+[2024-07-08 18:36:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/?simply_static_page=177
+[2024-07-08 18:36:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/?simply_static_page=177
+[2024-07-08 18:36:54] [class-ss-url-fetcher.php:103] Filesize: 57171 bytes
+[2024-07-08 18:36:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-07-08 18:36:54] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-07-08 18:36:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31c6423cc-7xAihr.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/index.html
+[2024-07-08 18:36:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:36:54] [class-ss-fetch-urls-task.php:159] Adding 17 URLs to the queue
+[2024-07-08 18:36:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:36:54] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: †ﬁtj’Ã2G0zsòC—G∆|?
+[2024-07-08 18:36:54] [class-ss-page.php:118] Checking Content Identical:a0de17746ad5cc3247307a73159843d147c67c3f===. Value: FALSE
+[2024-07-08 18:36:54] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-08 18:36:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 3
+[2024-07-08 18:36:54] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:36:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31c6d5e1d-qhF5u5.tmp
+[2024-07-08 18:36:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/?simply_static_page=178
+[2024-07-08 18:36:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/?simply_static_page=178
+[2024-07-08 18:36:55] [class-ss-url-fetcher.php:103] Filesize: 67439 bytes
+[2024-07-08 18:36:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-07-08 18:36:55] [class-ss-url-fetcher.php:233] New filename for static page: /2024/06/28/ciao-mondo/index.html
+[2024-07-08 18:36:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31c6d5e1d-qhF5u5.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/2024/06/28/ciao-mondo/index.html
+[2024-07-08 18:36:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:36:55] [class-ss-fetch-urls-task.php:159] Adding 23 URLs to the queue
+[2024-07-08 18:36:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:36:55] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: å‘"^∏>ùöZ¬∆äp€”åWí
+[2024-07-08 18:36:55] [class-ss-page.php:118] Checking Content Identical:8cd4225eb83e0d9d9a5ac2c68a1170dbd38c5792===. Value: FALSE
+[2024-07-08 18:36:55] [class-ss-fetch-urls-task.php:72] URL: C:/xampp/htdocs/Projects/curriculum_nicolasmollo/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-07-08 18:36:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 3
+[2024-07-08 18:36:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:36:55] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-07-08 18:36:55] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 3 pages/files
+[2024-07-08 18:36:55] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-07-08 18:36:55] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-08 18:36:55] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-08 18:36:55] [class-ss-fetch-urls-task.php:69] Total pages: 26; Pages remaining: 23
+[2024-07-08 18:36:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo
+[2024-07-08 18:36:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 26
+[2024-07-08 18:36:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:36:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31c771877-qngpsF.tmp
+[2024-07-08 18:36:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo?simply_static_page=180
+[2024-07-08 18:36:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo?simply_static_page=180
+[2024-07-08 18:36:55] [class-ss-url-fetcher.php:103] Filesize: 380 bytes
+[2024-07-08 18:36:55] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-07-08 18:36:55] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-07-08 18:36:55] [class-ss-fetch-urls-task.php:205] redirect_url: http://localhost/Projects/curriculum_nicolasmollo/
+[2024-07-08 18:36:55] [class-ss-fetch-urls-task.php:214] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-07-08 18:36:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/2024/07/01/articolo-prova/
+[2024-07-08 18:36:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 26
+[2024-07-08 18:36:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:36:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31c7767bb-STnu9G.tmp
+[2024-07-08 18:36:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/2024/07/01/articolo-prova/?simply_static_page=181
+[2024-07-08 18:36:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/07/01/articolo-prova/?simply_static_page=181
+[2024-07-08 18:36:55] [class-ss-url-fetcher.php:103] Filesize: 69882 bytes
+[2024-07-08 18:36:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-07-08 18:36:55] [class-ss-url-fetcher.php:233] New filename for static page: /2024/07/01/articolo-prova/index.html
+[2024-07-08 18:36:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31c7767bb-STnu9G.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/2024/07/01/articolo-prova/index.html
+[2024-07-08 18:36:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:36:56] [class-ss-fetch-urls-task.php:159] Adding 28 URLs to the queue
+[2024-07-08 18:36:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:36:56] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ;]“Çïw{¸39j∆t^<˝6
+[2024-07-08 18:36:56] [class-ss-page.php:118] Checking Content Identical:3b5dd2829510777bfc33396ac6745e123cfd3601===. Value: FALSE
+[2024-07-08 18:36:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-content/uploads/2024/07/Screenshot-2024-06-06-101602.png
+[2024-07-08 18:36:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 26
+[2024-07-08 18:36:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:36:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31c8167e4-rWPkvc.tmp
+[2024-07-08 18:36:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/wp-content/uploads/2024/07/Screenshot-2024-06-06-101602.png?simply_static_page=182
+[2024-07-08 18:36:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/wp-content/uploads/2024/07/Screenshot-2024-06-06-101602.png?simply_static_page=182
+[2024-07-08 18:36:56] [class-ss-url-fetcher.php:103] Filesize: 36501 bytes
+[2024-07-08 18:36:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-07-08 18:36:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/07/Screenshot-2024-06-06-101602.png
+[2024-07-08 18:36:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31c8167e4-rWPkvc.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/wp-content/uploads/2024/07/Screenshot-2024-06-06-101602.png
+[2024-07-08 18:36:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:36:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-08 18:36:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:36:56] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: v0ãTf¶/(Çÿ”ÖÈ%⁄◊†É
+[2024-07-08 18:36:56] [class-ss-page.php:118] Checking Content Identical:76308b5466a62f1c28820fd8d385e925dad7a083===. Value: FALSE
+[2024-07-08 18:36:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-includes/blocks/navigation/view.min.js
+[2024-07-08 18:36:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 26
+[2024-07-08 18:36:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:36:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31c822c8f-MjbuiK.tmp
+[2024-07-08 18:36:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/wp-includes/blocks/navigation/view.min.js?simply_static_page=183
+[2024-07-08 18:36:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/wp-includes/blocks/navigation/view.min.js?simply_static_page=183
+[2024-07-08 18:36:56] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2024-07-08 18:36:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-08 18:36:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2024-07-08 18:36:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31c822c8f-MjbuiK.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/wp-includes/blocks/navigation/view.min.js
+[2024-07-08 18:36:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:36:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-08 18:36:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:36:56] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ≤{®”πéﬂ’#÷ËB)’/˝
+[2024-07-08 18:36:56] [class-ss-page.php:118] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
+[2024-07-08 18:36:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/feed/
+[2024-07-08 18:36:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 26
+[2024-07-08 18:36:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:36:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31c82d8f8-rYLZkp.tmp
+[2024-07-08 18:36:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/feed/?simply_static_page=184
+[2024-07-08 18:36:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/feed/?simply_static_page=184
+[2024-07-08 18:36:56] [class-ss-url-fetcher.php:103] Filesize: 4167 bytes
+[2024-07-08 18:36:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-07-08 18:36:56] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-07-08 18:36:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31c82d8f8-rYLZkp.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/feed/index.xml
+[2024-07-08 18:36:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:36:56] [class-ss-fetch-urls-task.php:159] Adding 9 URLs to the queue
+[2024-07-08 18:36:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:36:56] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: π«)∫Lê˘⁄vƒM%…?:b
+[2024-07-08 18:36:56] [class-ss-page.php:118] Checking Content Identical:b916c729ba4c90f9da0676c40f4d25c93f3a6203===. Value: FALSE
+[2024-07-08 18:36:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/comments/feed/
+[2024-07-08 18:36:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 26
+[2024-07-08 18:36:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:36:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31c8a9f4e-ANHcwQ.tmp
+[2024-07-08 18:36:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/comments/feed/?simply_static_page=185
+[2024-07-08 18:36:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/comments/feed/?simply_static_page=185
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:103] Filesize: 816 bytes
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31c8a9f4e-ANHcwQ.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/comments/feed/index.xml
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ¶L]"Vﬁ"KeUm~V∞sØ+”H
+[2024-07-08 18:36:57] [class-ss-page.php:118] Checking Content Identical:a64c5d2256de224b65556d7e5614b073af2bd348===. Value: FALSE
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-includes/blocks/navigation/style.min.css
+[2024-07-08 18:36:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 26
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31c921943-bC9kXz.tmp
+[2024-07-08 18:36:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/wp-includes/blocks/navigation/style.min.css?simply_static_page=186
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/wp-includes/blocks/navigation/style.min.css?simply_static_page=186
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:103] Filesize: 16484 bytes
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31c921943-bC9kXz.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/wp-includes/blocks/navigation/style.min.css
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ß^ﬂTB¡ñ÷p‰6¬ˆÏ’ï‰h
+[2024-07-08 18:36:57] [class-ss-page.php:118] Checking Content Identical:a75edf5442c196d670e436c2f616ecd595e41d68===. Value: FALSE
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-content/themes/norrsken/assets/css/blocks/navigation.css
+[2024-07-08 18:36:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 26
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31c92c5f2-qZep0Q.tmp
+[2024-07-08 18:36:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/wp-content/themes/norrsken/assets/css/blocks/navigation.css?simply_static_page=187
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/wp-content/themes/norrsken/assets/css/blocks/navigation.css?simply_static_page=187
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:103] Filesize: 90 bytes
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/norrsken/assets/css/blocks/navigation.css
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31c92c5f2-qZep0Q.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/wp-content/themes/norrsken/assets/css/blocks/navigation.css
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: fˇ–:ÕÓ?ÑÕØˆy‘"§êÀ∞+
+[2024-07-08 18:36:57] [class-ss-page.php:118] Checking Content Identical:66ffd03acdee3f1784cdaff679d422a490cbb02b===. Value: FALSE
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-content/themes/norrsken/assets/css/blocks/separator.css
+[2024-07-08 18:36:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 26
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31c93847e-XxJEoT.tmp
+[2024-07-08 18:36:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/wp-content/themes/norrsken/assets/css/blocks/separator.css?simply_static_page=188
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/wp-content/themes/norrsken/assets/css/blocks/separator.css?simply_static_page=188
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:103] Filesize: 280 bytes
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/norrsken/assets/css/blocks/separator.css
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31c93847e-XxJEoT.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/wp-content/themes/norrsken/assets/css/blocks/separator.css
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: !Õ©s ÜAvnÇÜD9Äÿ
+[2024-07-08 18:36:57] [class-ss-page.php:118] Checking Content Identical:0d21041bcda973ca8641766e82864404390780d8===. Value: FALSE
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-content/themes/norrsken/assets/css/blocks/categories.css
+[2024-07-08 18:36:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 26
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31c9401a5-I42ql5.tmp
+[2024-07-08 18:36:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/wp-content/themes/norrsken/assets/css/blocks/categories.css?simply_static_page=189
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/wp-content/themes/norrsken/assets/css/blocks/categories.css?simply_static_page=189
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:103] Filesize: 100 bytes
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/norrsken/assets/css/blocks/categories.css
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31c9401a5-I42ql5.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/wp-content/themes/norrsken/assets/css/blocks/categories.css
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: MeÉ˘Œáf’Œ´∫öèdY`‰
+[2024-07-08 18:36:57] [class-ss-page.php:118] Checking Content Identical:034d65830af9ce8766d5ceabba9a8f64590760e4===. Value: FALSE
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-content/themes/norrsken/assets/css/blocks/paragraph.css
+[2024-07-08 18:36:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 26
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31c94adce-twrCvY.tmp
+[2024-07-08 18:36:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/wp-content/themes/norrsken/assets/css/blocks/paragraph.css?simply_static_page=190
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/wp-content/themes/norrsken/assets/css/blocks/paragraph.css?simply_static_page=190
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:103] Filesize: 106 bytes
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/norrsken/assets/css/blocks/paragraph.css
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31c94adce-twrCvY.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/wp-content/themes/norrsken/assets/css/blocks/paragraph.css
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ˆ‡Ã7Æ(ô1q⁄X›mìO ∑æ
+[2024-07-08 18:36:57] [class-ss-page.php:118] Checking Content Identical:f61de0cc37ae2899311471da58dd6d934f00b7be===. Value: FALSE
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-content/themes/norrsken/style.css
+[2024-07-08 18:36:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 26
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31c9544f6-qKSBJR.tmp
+[2024-07-08 18:36:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/wp-content/themes/norrsken/style.css?simply_static_page=191
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/wp-content/themes/norrsken/style.css?simply_static_page=191
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:103] Filesize: 4047 bytes
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/norrsken/style.css
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31c9544f6-qKSBJR.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/wp-content/themes/norrsken/style.css
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: F#Ï°P™©Ü2÷Ó=◊d,ÁF˛
+[2024-07-08 18:36:57] [class-ss-page.php:118] Checking Content Identical:4623ec03a150aaa986321ad6ee3dd7642ce746fe===. Value: FALSE
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-json/
+[2024-07-08 18:36:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 26
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Projects/curriculum_nicolasmollo/wp-json/
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/xmlrpc.php
+[2024-07-08 18:36:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 26
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Projects/curriculum_nicolasmollo/xmlrpc.php
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-includes/js/dist/interactivity.min.js
+[2024-07-08 18:36:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 26
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31c9672b7-xuqlWs.tmp
+[2024-07-08 18:36:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/wp-includes/js/dist/interactivity.min.js?simply_static_page=194
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/wp-includes/js/dist/interactivity.min.js?simply_static_page=194
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:103] Filesize: 35085 bytes
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31c9672b7-xuqlWs.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/wp-includes/js/dist/interactivity.min.js
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: î“-HóüFVÙixø‘∂zÎÏ
+[2024-07-08 18:36:57] [class-ss-page.php:118] Checking Content Identical:94d22d48979f46560d1c7ff46978bfd4b67aebec===. Value: FALSE
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-content/themes/norrsken/assets/fonts/geist-mono/GeistMono-Variable.woff2
+[2024-07-08 18:36:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 26
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31c9703f4-B98eYl.tmp
+[2024-07-08 18:36:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/wp-content/themes/norrsken/assets/fonts/geist-mono/GeistMono-Variable.woff2?simply_static_page=195
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/wp-content/themes/norrsken/assets/fonts/geist-mono/GeistMono-Variable.woff2?simply_static_page=195
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:103] Filesize: 53476 bytes
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/norrsken/assets/fonts/geist-mono/GeistMono-Variable.woff2
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31c9703f4-B98eYl.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/wp-content/themes/norrsken/assets/fonts/geist-mono/GeistMono-Variable.woff2
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: y˘@CJA+.Ÿé”!›G·§†Ù…&
+[2024-07-08 18:36:57] [class-ss-page.php:118] Checking Content Identical:79f940434a412b2ed98ed321dd47e1a4a0f4c926===. Value: FALSE
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/category/senza-categoria/
+[2024-07-08 18:36:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 26
+[2024-07-08 18:36:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31c97e23d-bfjBcB.tmp
+[2024-07-08 18:36:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/category/senza-categoria/?simply_static_page=196
+[2024-07-08 18:36:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/category/senza-categoria/?simply_static_page=196
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:103] Filesize: 54146 bytes
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:233] New filename for static page: /category/senza-categoria/index.html
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31c97e23d-bfjBcB.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/category/senza-categoria/index.html
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:159] Adding 16 URLs to the queue
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ’Ú"¸5∫ëRt~‚~⁄G∆E÷‰'
+[2024-07-08 18:36:58] [class-ss-page.php:118] Checking Content Identical:d5f20822fc35ba9152747ee27eda47c645d6e427===. Value: FALSE
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-includes/js/comment-reply.min.js
+[2024-07-08 18:36:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 26
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31ca14043-OV3jNc.tmp
+[2024-07-08 18:36:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/wp-includes/js/comment-reply.min.js?simply_static_page=197
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/wp-includes/js/comment-reply.min.js?simply_static_page=197
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31ca14043-OV3jNc.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/wp-includes/js/comment-reply.min.js
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: €6ßj™ cøæ¿,,ñt8≈¢E
+[2024-07-08 18:36:58] [class-ss-page.php:118] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: FALSE
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/feed/
+[2024-07-08 18:36:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 26
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31ca1c5b5-5piYZv.tmp
+[2024-07-08 18:36:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/feed/?simply_static_page=198
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/feed/?simply_static_page=198
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:103] Filesize: 824 bytes
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:233] New filename for static page: /2024/06/28/ciao-mondo/feed/index.xml
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31ca1c5b5-5piYZv.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/2024/06/28/ciao-mondo/feed/index.xml
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: úf”y´¥†,Ø¶óΩDÔöT
+[2024-07-08 18:36:58] [class-ss-page.php:118] Checking Content Identical:9c66d31f79abb40618a02caf16a697bd44ef9a54===. Value: FALSE
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-content/themes/norrsken/assets/css/blocks/post-comments-form.css
+[2024-07-08 18:36:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 26
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31ca7d892-zqmSdc.tmp
+[2024-07-08 18:36:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/wp-content/themes/norrsken/assets/css/blocks/post-comments-form.css?simply_static_page=199
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/wp-content/themes/norrsken/assets/css/blocks/post-comments-form.css?simply_static_page=199
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:103] Filesize: 1257 bytes
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/norrsken/assets/css/blocks/post-comments-form.css
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31ca7d892-zqmSdc.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/wp-content/themes/norrsken/assets/css/blocks/post-comments-form.css
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: dÖLkŸ;Od6K~˜hÈÂL
+[2024-07-08 18:36:58] [class-ss-page.php:118] Checking Content Identical:64854c6b0cd9063b4f6436074b7e0ef768e9e54c===. Value: FALSE
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-includes/css/dist/block-library/common.min.css
+[2024-07-08 18:36:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 26
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31ca8aac2-YpIL1W.tmp
+[2024-07-08 18:36:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/wp-includes/css/dist/block-library/common.min.css?simply_static_page=200
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/wp-includes/css/dist/block-library/common.min.css?simply_static_page=200
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:103] Filesize: 3503 bytes
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/common.min.css
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31ca8aac2-YpIL1W.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/wp-includes/css/dist/block-library/common.min.css
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ‚&7µ÷ÆzAä‚–»£b∑˙
+[2024-07-08 18:36:58] [class-ss-page.php:118] Checking Content Identical:e22637b50dd6ae1c1f7a418ae2d0c803a362b7fa===. Value: FALSE
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-json/wp/v2/posts/1
+[2024-07-08 18:36:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 26
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Projects/curriculum_nicolasmollo/wp-json/wp/v2/posts/1
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-json/oembed/1.0/embed
+[2024-07-08 18:36:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 26
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Projects/curriculum_nicolasmollo/wp-json/oembed/1.0/embed
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-07-08 18:36:58] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 3 of 26 pages/files
+[2024-07-08 18:36:58] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-07-08 18:36:58] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-08 18:36:58] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:69] Total pages: 35; Pages remaining: 9
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/pagina-di-esempio/
+[2024-07-08 18:36:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 35
+[2024-07-08 18:36:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31caa0212-hSRcrP.tmp
+[2024-07-08 18:36:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/pagina-di-esempio/?simply_static_page=203
+[2024-07-08 18:36:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/pagina-di-esempio/?simply_static_page=203
+[2024-07-08 18:36:59] [class-ss-url-fetcher.php:103] Filesize: 50092 bytes
+[2024-07-08 18:36:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-07-08 18:36:59] [class-ss-url-fetcher.php:233] New filename for static page: /pagina-di-esempio/index.html
+[2024-07-08 18:36:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31caa0212-hSRcrP.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/pagina-di-esempio/index.html
+[2024-07-08 18:36:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:36:59] [class-ss-fetch-urls-task.php:159] Adding 20 URLs to the queue
+[2024-07-08 18:36:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:36:59] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: /v}Ï√|≤aTs≥ÿâü>…I
+[2024-07-08 18:36:59] [class-ss-page.php:118] Checking Content Identical:2f767decc37cb20f615473b3d801899f3ec91e49===. Value: FALSE
+[2024-07-08 18:36:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-content/uploads/2024/07/index.html
+[2024-07-08 18:36:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 35
+[2024-07-08 18:36:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:36:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31cb38468-MFQen8.tmp
+[2024-07-08 18:36:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/wp-content/uploads/2024/07/index.html?simply_static_page=204
+[2024-07-08 18:36:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/wp-content/uploads/2024/07/index.html?simply_static_page=204
+[2024-07-08 18:36:59] [class-ss-url-fetcher.php:103] Filesize: 4789 bytes
+[2024-07-08 18:36:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-07-08 18:36:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/07/index.html
+[2024-07-08 18:36:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31cb38468-MFQen8.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/wp-content/uploads/2024/07/index.html
+[2024-07-08 18:36:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:36:59] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-07-08 18:36:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:36:59] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ?¨¶û ¸¥ëd…Üø¢’Ÿ=
+[2024-07-08 18:36:59] [class-ss-page.php:118] Checking Content Identical:3f0bac0d07a69e20fcb49164c98614bfa2d5d93d===. Value: FALSE
+[2024-07-08 18:36:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/category/development/
+[2024-07-08 18:36:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 35
+[2024-07-08 18:36:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:36:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31cb4568f-czT1TG.tmp
+[2024-07-08 18:36:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/category/development/?simply_static_page=205
+[2024-07-08 18:36:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/category/development/?simply_static_page=205
+[2024-07-08 18:36:59] [class-ss-url-fetcher.php:103] Filesize: 54702 bytes
+[2024-07-08 18:36:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-07-08 18:36:59] [class-ss-url-fetcher.php:233] New filename for static page: /category/development/index.html
+[2024-07-08 18:36:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31cb4568f-czT1TG.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/category/development/index.html
+[2024-07-08 18:36:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:36:59] [class-ss-fetch-urls-task.php:159] Adding 17 URLs to the queue
+[2024-07-08 18:36:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:36:59] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: Û'Úji€¥íEÑtÂhzv&Ù‰
+[2024-07-08 18:36:59] [class-ss-page.php:118] Checking Content Identical:f327f26a69db1db492458474e5687a7626f4e4f0===. Value: FALSE
+[2024-07-08 18:36:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/2024/07/01/articolo-prova/feed/
+[2024-07-08 18:36:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 35
+[2024-07-08 18:36:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:36:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31cbcc6b4-SIeXNZ.tmp
+[2024-07-08 18:36:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/2024/07/01/articolo-prova/feed/?simply_static_page=206
+[2024-07-08 18:36:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/07/01/articolo-prova/feed/?simply_static_page=206
+[2024-07-08 18:37:00] [class-ss-url-fetcher.php:103] Filesize: 838 bytes
+[2024-07-08 18:37:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-07-08 18:37:00] [class-ss-url-fetcher.php:233] New filename for static page: /2024/07/01/articolo-prova/feed/index.xml
+[2024-07-08 18:37:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31cbcc6b4-SIeXNZ.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/2024/07/01/articolo-prova/feed/index.xml
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ¡<>X[sJèlhÀˆ-Åsm˘XL 
+[2024-07-08 18:37:00] [class-ss-page.php:118] Checking Content Identical:c13c3e585b734a8f6c68cbf62d81736df9584cca===. Value: FALSE
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-includes/blocks/image/style.min.css
+[2024-07-08 18:37:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 35
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:37:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31cc4ae0d-MbzQJs.tmp
+[2024-07-08 18:37:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/wp-includes/blocks/image/style.min.css?simply_static_page=207
+[2024-07-08 18:37:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/wp-includes/blocks/image/style.min.css?simply_static_page=207
+[2024-07-08 18:37:00] [class-ss-url-fetcher.php:103] Filesize: 7049 bytes
+[2024-07-08 18:37:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-08 18:37:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/image/style.min.css
+[2024-07-08 18:37:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31cc4ae0d-MbzQJs.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/wp-includes/blocks/image/style.min.css
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: Z/∑zÔ÷œ¥¥i™LGº
+[2024-07-08 18:37:00] [class-ss-page.php:118] Checking Content Identical:105a2ff003b77aefd61ecfb419b4690caa4c47bc===. Value: FALSE
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-includes/blocks/button/style.min.css
+[2024-07-08 18:37:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 35
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:37:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31cc534ae-F5g1Xx.tmp
+[2024-07-08 18:37:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/wp-includes/blocks/button/style.min.css?simply_static_page=208
+[2024-07-08 18:37:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/wp-includes/blocks/button/style.min.css?simply_static_page=208
+[2024-07-08 18:37:00] [class-ss-url-fetcher.php:103] Filesize: 3149 bytes
+[2024-07-08 18:37:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-08 18:37:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/button/style.min.css
+[2024-07-08 18:37:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31cc534ae-F5g1Xx.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/wp-includes/blocks/button/style.min.css
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ès&†ı∂£¸˝=!áëí≈’∑
+[2024-07-08 18:37:00] [class-ss-page.php:118] Checking Content Identical:8f017326a0f5b6a3fcfd3d21879192c50b1bd5b7===. Value: FALSE
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-json/wp/v2/posts/8
+[2024-07-08 18:37:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 35
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Projects/curriculum_nicolasmollo/wp-json/wp/v2/posts/8
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/category/senza-categoria/feed/
+[2024-07-08 18:37:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 35
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:37:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31cc5d79f-YdkkAa.tmp
+[2024-07-08 18:37:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/category/senza-categoria/feed/?simply_static_page=210
+[2024-07-08 18:37:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/category/senza-categoria/feed/?simply_static_page=210
+[2024-07-08 18:37:00] [class-ss-url-fetcher.php:103] Filesize: 1984 bytes
+[2024-07-08 18:37:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-07-08 18:37:00] [class-ss-url-fetcher.php:233] New filename for static page: /category/senza-categoria/feed/index.xml
+[2024-07-08 18:37:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31cc5d79f-YdkkAa.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/category/senza-categoria/feed/index.xml
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: —û†âˇå,Af^„ùê√z0c_
+[2024-07-08 18:37:00] [class-ss-page.php:118] Checking Content Identical:d19ea089ff8c2c4103665ee39d900fc37a30635f===. Value: FALSE
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-json/wp/v2/categories/1
+[2024-07-08 18:37:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 35
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Projects/curriculum_nicolasmollo/wp-json/wp/v2/categories/1
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-07-08 18:37:00] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 26 of 35 pages/files
+[2024-07-08 18:37:00] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-07-08 18:37:00] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-08 18:37:00] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:69] Total pages: 43; Pages remaining: 8
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-admin/
+[2024-07-08 18:37:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 43
+[2024-07-08 18:37:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:37:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31ccc90b1-9ONh3v.tmp
+[2024-07-08 18:37:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/wp-admin/?simply_static_page=212
+[2024-07-08 18:37:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/wp-admin/?simply_static_page=212
+[2024-07-08 18:37:01] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-07-08 18:37:01] [class-ss-url-fetcher.php:119] http_status_code: 302 | content_type: text/html; charset=UTF-8
+[2024-07-08 18:37:01] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-07-08 18:37:01] [class-ss-fetch-urls-task.php:205] redirect_url: http://localhost/Projects/curriculum_nicolasmollo/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2FProjects%2Fcurriculum_nicolasmollo%2Fwp-admin%2F%3Fsimply_static_page%3D212&reauth=1
+[2024-07-08 18:37:01] [class-ss-fetch-urls-task.php:232] Redirect URL is on the same domain; adding the URL to the queue
+[2024-07-08 18:37:01] [class-ss-fetch-urls-task.php:244] Creating a redirect page
+[2024-07-08 18:37:01] [class-ss-url-fetcher.php:233] New filename for static page: /wp-admin/index.html
+[2024-07-08 18:37:01] [class-ss-page.php:118] Checking Content Identical:e532ab48d50be441fb79c3bff26783becc3662b7===. Value: FALSE
+[2024-07-08 18:37:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/pagina-di-esempio/feed/
+[2024-07-08 18:37:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 43
+[2024-07-08 18:37:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:37:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31cd4a1e1-HSkYnn.tmp
+[2024-07-08 18:37:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/pagina-di-esempio/feed/?simply_static_page=213
+[2024-07-08 18:37:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/pagina-di-esempio/feed/?simply_static_page=213
+[2024-07-08 18:37:01] [class-ss-url-fetcher.php:103] Filesize: 803 bytes
+[2024-07-08 18:37:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-07-08 18:37:01] [class-ss-url-fetcher.php:233] New filename for static page: /pagina-di-esempio/feed/index.xml
+[2024-07-08 18:37:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31cd4a1e1-HSkYnn.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/pagina-di-esempio/feed/index.xml
+[2024-07-08 18:37:01] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:37:01] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-07-08 18:37:01] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:37:01] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: >¸.`:òg≥øh`√ü`¶1
+[2024-07-08 18:37:01] [class-ss-page.php:118] Checking Content Identical:3e07fc2e603a98671ab3bf681b60c3119f60a631===. Value: FALSE
+[2024-07-08 18:37:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-content/themes/norrsken/assets/css/blocks/quote.css
+[2024-07-08 18:37:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 43
+[2024-07-08 18:37:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:37:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31cdad976-rsoC4b.tmp
+[2024-07-08 18:37:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/wp-content/themes/norrsken/assets/css/blocks/quote.css?simply_static_page=214
+[2024-07-08 18:37:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/wp-content/themes/norrsken/assets/css/blocks/quote.css?simply_static_page=214
+[2024-07-08 18:37:01] [class-ss-url-fetcher.php:103] Filesize: 435 bytes
+[2024-07-08 18:37:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-08 18:37:01] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/norrsken/assets/css/blocks/quote.css
+[2024-07-08 18:37:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31cdad976-rsoC4b.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/wp-content/themes/norrsken/assets/css/blocks/quote.css
+[2024-07-08 18:37:01] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:37:01] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-08 18:37:01] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:37:01] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: cb7‚øMÃô°ÔcÛô(4ñ
+[2024-07-08 18:37:01] [class-ss-page.php:118] Checking Content Identical:636237e20dbf4dcc99a11519ef63f3992834960c===. Value: FALSE
+[2024-07-08 18:37:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-json/wp/v2/pages/2
+[2024-07-08 18:37:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 43
+[2024-07-08 18:37:01] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Projects/curriculum_nicolasmollo/wp-json/wp/v2/pages/2
+[2024-07-08 18:37:01] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-07-08 18:37:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-content/uploads/2024/07/TemplateData/favicon.ico
+[2024-07-08 18:37:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 43
+[2024-07-08 18:37:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:37:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31cdb911d-ZfXf1a.tmp
+[2024-07-08 18:37:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/wp-content/uploads/2024/07/TemplateData/favicon.ico?simply_static_page=216
+[2024-07-08 18:37:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/wp-content/uploads/2024/07/TemplateData/favicon.ico?simply_static_page=216
+[2024-07-08 18:37:02] [class-ss-url-fetcher.php:103] Filesize: 48564 bytes
+[2024-07-08 18:37:02] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-07-08 18:37:02] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-07-08 18:37:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31ce35532-9L2jrO.tmp
+[2024-07-08 18:37:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/wp-content/uploads/2024/07/TemplateData/favicon.ico
+[2024-07-08 18:37:02] [class-ss-url-fetcher.php:103] Filesize: 48564 bytes
+[2024-07-08 18:37:02] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-07-08 18:37:02] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-07-08 18:37:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-content/uploads/2024/07/TemplateData/style.css
+[2024-07-08 18:37:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 43
+[2024-07-08 18:37:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:37:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31cea5af0-vCgHWy.tmp
+[2024-07-08 18:37:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/wp-content/uploads/2024/07/TemplateData/style.css?simply_static_page=217
+[2024-07-08 18:37:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/wp-content/uploads/2024/07/TemplateData/style.css?simply_static_page=217
+[2024-07-08 18:37:03] [class-ss-url-fetcher.php:103] Filesize: 48564 bytes
+[2024-07-08 18:37:03] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-07-08 18:37:03] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-07-08 18:37:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31cf2127c-UOsATL.tmp
+[2024-07-08 18:37:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/wp-content/uploads/2024/07/TemplateData/style.css
+[2024-07-08 18:37:03] [class-ss-url-fetcher.php:103] Filesize: 48564 bytes
+[2024-07-08 18:37:03] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-07-08 18:37:03] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-07-08 18:37:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/category/development/feed/
+[2024-07-08 18:37:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 43
+[2024-07-08 18:37:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-08 18:37:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31cf9405f-fgTP6q.tmp
+[2024-07-08 18:37:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/category/development/feed/?simply_static_page=218
+[2024-07-08 18:37:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/category/development/feed/?simply_static_page=218
+[2024-07-08 18:37:04] [class-ss-url-fetcher.php:103] Filesize: 3195 bytes
+[2024-07-08 18:37:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-07-08 18:37:04] [class-ss-url-fetcher.php:233] New filename for static page: /category/development/feed/index.xml
+[2024-07-08 18:37:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31cf9405f-fgTP6q.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812/category/development/feed/index.xml
+[2024-07-08 18:37:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-08 18:37:04] [class-ss-fetch-urls-task.php:159] Adding 7 URLs to the queue
+[2024-07-08 18:37:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-08 18:37:04] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ñ$°<	Ø˛¢¥\Ìôb°ç9∞™Å
+[2024-07-08 18:37:04] [class-ss-page.php:118] Checking Content Identical:9624a13c09affea2b45ced9962a18d3914b0aa81===. Value: FALSE
+[2024-07-08 18:37:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-json/wp/v2/categories/3
+[2024-07-08 18:37:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 43
+[2024-07-08 18:37:04] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Projects/curriculum_nicolasmollo/wp-json/wp/v2/categories/3
+[2024-07-08 18:37:04] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-07-08 18:37:04] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 35 of 43 pages/files
+[2024-07-08 18:37:04] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-07-08 18:37:04] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-08 18:37:04] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-08 18:37:04] [class-ss-fetch-urls-task.php:69] Total pages: 44; Pages remaining: 1
+[2024-07-08 18:37:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Projects/curriculum_nicolasmollo/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2FProjects%2Fcurriculum_nicolasmollo%2Fwp-admin%2F%3Fsimply_static_page%3D212&reauth=1
+[2024-07-08 18:37:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 44
+[2024-07-08 18:37:04] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Projects/curriculum_nicolasmollo/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2FProjects%2Fcurriculum_nicolasmollo%2Fwp-admin%2F%3Fsimply_static_page%3D212&reauth=1
+[2024-07-08 18:37:04] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-07-08 18:37:04] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 43 of 44 pages/files
+[2024-07-08 18:37:04] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-07-08 18:37:04] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-08 18:37:04] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-08 18:37:04] [class-ss-fetch-urls-task.php:69] Total pages: 44; Pages remaining: 0
+[2024-07-08 18:37:04] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 44 of 44 pages/files
+[2024-07-08 18:37:04] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-07-08 18:37:04] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-07-08 18:37:04] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-07-08 18:37:04] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-07-08 18:37:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Nicol\AppData\Local\Temp/668c31d011488-Js4luG.tmp
+[2024-07-08 18:37:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Projects/curriculum_nicolasmollo/1720463825?simply_static_page=0
+[2024-07-08 18:37:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/1720463825?simply_static_page=0
+[2024-07-08 18:37:04] [class-ss-url-fetcher.php:103] Filesize: 48564 bytes
+[2024-07-08 18:37:04] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-07-08 18:37:04] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-07-08 18:37:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Nicol\AppData\Local\Temp/668c31d011488-Js4luG.tmp to C:\xampp\htdocs\Projects\curriculum_nicolasmollo/wp-content/uploads\simply-static\temp-files/simply-static-1-1720463812\404/index.html
+[2024-07-08 18:37:04] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-07-08 18:37:04] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-07-08 18:37:04] [class-ss-page.php:118] Checking Content Identical:eacfa23bcb8096badfb4d43714815349ffbdcbeb===. Value: FALSE
+[2024-07-08 18:37:04] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-07-08 18:37:04] [class-ss-archive-creation-job.php:175] We've found our next task: create_zip_archive
+[2024-07-08 18:37:04] [class-ss-archive-creation-job.php:136] Current task: create_zip_archive
+[2024-07-08 18:37:04] [class-ss-archive-creation-job.php:153] Performing task: create_zip_archive
+[2024-07-08 18:37:04] [class-ss-create-zip-archive.php:71] Fetching list of files to include in zip
+[2024-07-08 18:37:04] [class-ss-create-zip-archive.php:80] Creating zip archive
+[2024-07-08 18:37:04] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://localhost/Projects/curriculum_nicolasmollo/wp-content/uploads/simply-static/temp-files/simply-static-1-1720463812.zip">Click here to download</a>
+[2024-07-08 18:37:04] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-07-08 18:37:04] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-07-08 18:37:04] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-07-08 18:37:04] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-07-08 18:37:04] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-07-08 18:37:04] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-07-08 18:37:04] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-07-08 18:37:04] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:12
+[2024-07-08 18:46:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo
+[2024-07-08 18:46:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-08 18:46:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo
+[2024-07-08 18:46:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-08 18:46:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo
+[2024-07-08 18:46:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-08 18:46:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo
+[2024-07-08 18:46:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-08 18:46:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo
+[2024-07-08 18:46:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-08 18:46:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo
+[2024-07-08 18:46:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-08 18:46:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo
+[2024-07-08 18:46:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-08 18:46:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo
+[2024-07-08 18:46:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-08 18:49:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo
+[2024-07-08 18:49:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-08 18:49:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo
+[2024-07-08 18:49:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:34:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo
+[2024-07-09 14:34:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:34:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo
+[2024-07-09 14:34:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:37:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:37:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:37:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:37:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:37:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:37:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:37:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:37:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:37:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:37:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:37:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:37:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:37:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:37:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:37:43] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:37:44] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:37:51] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:38:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:38:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:38:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:38:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:40:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:40:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:40:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:40:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:41:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:41:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:41:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:41:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:41:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:41:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:41:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:41:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:43:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:43:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
+[2024-07-09 14:43:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Projects/curriculum_nicolasmollo/2024/06/28/ciao-mondo/
