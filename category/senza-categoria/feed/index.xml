@@ -8,10 +8,10 @@
 	>
 
 <channel>
-	<title>Senza categoria &#8211; Nicolas Mollo &#8211; Curriculum Vitae</title>
+	<title>Senza categoria &#8211; Nicolas Mollo</title>
 	<atom:link href="https://nicolasmollo.github.io/TestSite/category/senza-categoria/feed/" rel="self" type="application/rss+xml" />
 	<link>https://nicolasmollo.github.io/TestSite</link>
-	<description>Lorem ipsum</description>
+	<description>Software developer</description>
 	<lastBuildDate>Fri, 28 Jun 2024 16:12:56 +0000</lastBuildDate>
 	<language>it-IT</language>
 	<sy:updatePeriod>
@@ -19,6 +19,14 @@
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.6.1</generator>
+
+<image>
+	<url>https://nicolasmollo.github.io/TestSite/wp-content/uploads/2024/08/Screenshot-2024-08-06-165426.png</url>
+	<title>Senza categoria &#8211; Nicolas Mollo</title>
+	<link>https://nicolasmollo.github.io/TestSite</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>Ciao mondo!</title>
 		<link>https://nicolasmollo.github.io/TestSite/2024/06/28/ciao-mondo/</link>

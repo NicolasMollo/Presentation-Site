@@ -1,0 +1,379 @@
+# Translation of Themes - Vermeer in Italian
+# This file is distributed under the same license as the Themes - Vermeer package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-04-18 12:23:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: it\n"
+"Project-Id-Version: Themes - Vermeer\n"
+
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "Vermeer is a profile theme with a unique design and eye-grabbing marquee effect. Add a photograph, a short bio and your links, and your profile page is ready to go. It has 13 different built-in theme styles, and fonts and colors are easy to modify in the WordPress Site Editor. Demo: https://vermeer.andersnoren.se"
+msgstr "Vermeer è un tema per profili con un design unico e un effetto di testo scorrevole che salta sicuramente all'occhio. Aggiungi una fotografia, una breve bio, i tuoi link... e voilà, la tua pagina profilo è pronta! Include 13 diversi stili del tema, e sia i font che i colori possono essere modificati facilmente nell'editor del sito di WordPress. Demo: https://vermeer.andersnoren.se"
+
+#. Theme Name of the theme
+#: style.css
+#, gp-priority: high
+msgid "Vermeer"
+msgstr "Vermeer"
+
+#: patterns/hidden-loop.php:37
+msgctxt "Text shown when no query results are found."
+msgid "No results found."
+msgstr "Nessun risultato trovato."
+
+#: patterns/hidden-loop.php
+msgctxt "Pattern title"
+msgid "Loop"
+msgstr "Loop"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Loop"
+msgstr "Loop"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr "Footer"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr "Header"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Huge Title"
+msgstr "Titolo enorme"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 6"
+msgstr "Titolo 6"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 5"
+msgstr "Titolo 5"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 4"
+msgstr "Titolo 4"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 3"
+msgstr "Titolo 3"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 2"
+msgstr "Titolo 2"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 1"
+msgstr "Titolo 1"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr "Molto grande"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "Grande"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "Medio"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Piccolo"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Tiny"
+msgstr "Piccolissimo"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Monospace"
+msgstr "Monospace di sistema"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Serif"
+msgstr "Serif di sistema"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Sans Serif"
+msgstr "Sans serif di sistema"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Geist"
+msgstr "Geist"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Geist Mono"
+msgstr "Geist Mono"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Body Margin"
+msgstr "Margine del contenuto"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "9"
+msgstr "9"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "8"
+msgstr "8"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "7"
+msgstr "7"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "6"
+msgstr "6"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "5"
+msgstr "5"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "4"
+msgstr "4"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "3"
+msgstr "3"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2"
+msgstr "2"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "1"
+msgstr "1"
+
+#: styles/zoey.json
+msgctxt "Style variation name"
+msgid "Zoey"
+msgstr "Zoey"
+
+#: styles/wilde.json
+msgctxt "Style variation name"
+msgid "Wilde"
+msgstr "Wilde"
+
+#: styles/skylar.json
+msgctxt "Style variation name"
+msgid "Skylar"
+msgstr "Skylar"
+
+#: styles/seraphina.json
+msgctxt "Style variation name"
+msgid "Seraphina"
+msgstr "Seraphina"
+
+#: styles/quinn.json
+msgctxt "Style variation name"
+msgid "Quinn"
+msgstr "Quinn"
+
+#: styles/paisley.json
+msgctxt "Style variation name"
+msgid "Paisley"
+msgstr "Paisley"
+
+#: styles/morgan.json
+msgctxt "Style variation name"
+msgid "Morgan"
+msgstr "Morgan"
+
+#: styles/kennedy.json
+msgctxt "Style variation name"
+msgid "Kennedy"
+msgstr "Kennedy"
+
+#: styles/inverted.json
+msgctxt "Style variation name"
+msgid "Inverted"
+msgstr "Invertito"
+
+#: styles/franklin.json
+msgctxt "Style variation name"
+msgid "Franklin"
+msgstr "Franklin"
+
+#: styles/emerson.json
+msgctxt "Style variation name"
+msgid "Emerson"
+msgstr "Emerson"
+
+#: styles/brooklyn.json styles/emerson.json styles/franklin.json
+#: styles/inverted.json styles/kennedy.json styles/morgan.json
+#: styles/paisley.json styles/quinn.json styles/seraphina.json
+#: styles/skylar.json styles/wilde.json styles/zoey.json theme.json
+msgctxt "Color name"
+msgid "Base"
+msgstr "Base"
+
+#: styles/brooklyn.json styles/emerson.json styles/franklin.json
+#: styles/inverted.json styles/kennedy.json styles/morgan.json
+#: styles/paisley.json styles/quinn.json styles/seraphina.json
+#: styles/skylar.json styles/wilde.json styles/zoey.json theme.json
+msgctxt "Color name"
+msgid "Contrast #3"
+msgstr "Contrasto #3"
+
+#: styles/brooklyn.json styles/emerson.json styles/franklin.json
+#: styles/inverted.json styles/kennedy.json styles/morgan.json
+#: styles/paisley.json styles/quinn.json styles/seraphina.json
+#: styles/skylar.json styles/wilde.json styles/zoey.json theme.json
+msgctxt "Color name"
+msgid "Contrast #2"
+msgstr "Contrasto #2"
+
+#: styles/brooklyn.json styles/emerson.json styles/franklin.json
+#: styles/inverted.json styles/kennedy.json styles/morgan.json
+#: styles/paisley.json styles/quinn.json styles/seraphina.json
+#: styles/skylar.json styles/wilde.json styles/zoey.json theme.json
+msgctxt "Color name"
+msgid "Contrast"
+msgstr "Contrasto"
+
+#: styles/brooklyn.json
+msgctxt "Style variation name"
+msgid "Brooklyn"
+msgstr "Brooklyn"
+
+#: patterns/hidden-home.php:65
+msgctxt "Home starting content: Navigation link text"
+msgid "Buy My Artwork"
+msgstr "Compra le mie opere"
+
+#: patterns/hidden-home.php:64
+msgctxt "Home starting content: Navigation link text"
+msgid "My Flickr"
+msgstr "Il mio Flickr"
+
+#: patterns/hidden-home.php:63
+msgctxt "Home starting content: Navigation link text"
+msgid "My Blog"
+msgstr "Il mio blog"
+
+#: patterns/hidden-home.php:53
+msgctxt "Home starting content: Profile"
+msgid "I am Johannes Vermeer, born in 1853. I paint with fervent passion, crafting celebrated works despite some personal struggles. My art resonates worldwide, immortalizing my unique perspective and inspiring generations with its enduring beauty."
+msgstr "Sono Johannes Vermeer, nato nel 1853. Dipingo con passione e creo opere celebri, nonostante qualche disavventura personale. La mia arte, conosciuta in tutto il mondo, rappresenta la mia visione unica e continua a ispirare intere generazioni con la sua bellezza senza tempo."
+
+#: patterns/hidden-home.php
+msgctxt "Pattern title"
+msgid "Home"
+msgstr "Home"
+
+#: patterns/hidden-header.php
+msgctxt "Pattern title"
+msgid "Header"
+msgstr "Header"
+
+#: patterns/hidden-footer.php:10
+msgid "Theme by <a href=\"https://wordpress.org\" rel=\"nofollow\">Anders Norén</a>"
+msgstr "Theme by <a href=\"https://wordpress.org\" rel=\"nofollow\">Anders Norén</a>"
+
+#: patterns/hidden-footer.php
+msgctxt "Pattern title"
+msgid "Footer"
+msgstr "Footer"
+
+#: patterns/hidden-comments.php
+msgctxt "Pattern title"
+msgid "Comments"
+msgstr "Commenti"
+
+#: patterns/hidden-404.php:43
+msgid "Go back"
+msgstr "Torna indietro"
+
+#: patterns/hidden-404.php:36
+msgid "The page you’re looking for could not be found."
+msgstr "Impossibile trovare la pagina che cerchi."
+
+#: patterns/hidden-404.php:11
+msgid "Error 404"
+msgstr "Errore 404"
+
+#: patterns/hidden-404.php
+msgctxt "Pattern title"
+msgid "Hidden 404"
+msgstr "404 nascosto"
+
+#: functions.php:137
+msgid "Marquee (→)"
+msgstr "Testo scorrevole (→)"
+
+#: functions.php:136
+msgid "Marquee (←)"
+msgstr "Testo scorrevole (←)"
+
+#: functions.php:120
+msgid "1x1 on mobile"
+msgstr "1x1 su dispositivo mobile"
+
+#: functions.php:119
+msgid "3x4 on mobile"
+msgstr "3x4 su dispositivo mobile"
+
+#: functions.php:112
+msgid "Arrow to the right"
+msgstr "Freccia verso destra"
+
+#: functions.php:102
+msgid "Styled vertical navigation"
+msgstr "Navigazione verticale stilizzata"
+
+#. Author URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://andersnoren.se"
+msgstr "https://andersnoren.se"
+
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "Anders Norén"
+msgstr "Anders Norén"
+
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://andersnoren.se/teman/vermeer-wordpress-theme/"
+msgstr "https://andersnoren.se/teman/vermeer-wordpress-theme/"

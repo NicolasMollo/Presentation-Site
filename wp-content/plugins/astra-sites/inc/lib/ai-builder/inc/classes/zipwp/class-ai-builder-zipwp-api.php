@@ -1,0 +1,2 @@
+<br>
+<b>Fatal error</b>:  Trait &quot;AiBuilder\Inc\Traits\Instance&quot; not found in <b>C:\xampp\htdocs\Projects\curriculum_nicolasmollo\wp-content\plugins\astra-sites\inc\lib\ai-builder\inc\classes\zipwp\class-ai-builder-zipwp-api.php</b> on line <b>23</b><br>
