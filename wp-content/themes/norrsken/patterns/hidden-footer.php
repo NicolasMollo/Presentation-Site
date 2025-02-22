@@ -11,7 +11,7 @@
 		<!-- wp:group {"style":{"spacing":{"blockGap":".6em"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 		<div class="wp-block-group">
 <!-- wp:paragraph -->
-			<p>© 2024</p>
+			<p>© 2025</p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:site-title /-->
